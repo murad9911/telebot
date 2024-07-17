@@ -8,11 +8,12 @@ How it works ?
 5. If you wanna reset password `reset mobile_number OTP new_password`.
 
 > Security solutions:
-```
-3 times false OTP OTP expired (telegram user blocked)
-OTP expired time 3 minute
-3 time unlock 1 hour (after that block user number and telegram_id)
-```
+
++ after 3 time flase OTP expired (telegram user blocked)
++ OTP expired time 3 minute
++ 3 time unlock 1 hour (after that block user number and telegram_id)
+
 > Chart
-![workflow]([https://github.com/murad9911/telebot/blob/main/tele.html](https://github.com/murad9911/telebot/blob/main/workflow.png?raw=true)
+
+![workflow](https://github.com/murad9911/telebot/blob/main/workflow.png?raw=true)
 
