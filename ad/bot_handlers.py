@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime, timedelta
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
+from telegram.ext import ContextTypes
 from ad_utils import get_user_by_phone, unlock_user, reset_user_password
 from sms_utils import verification_codes, sms_attempts, blocked_users, send_verification_code, check_sms_limit, update_sms_limit
 
